@@ -1,6 +1,6 @@
 package com.marcosjourney.utils;
 
-import com.marcosjourney.model.GameState;
+import com.marcosjourney.model.game.GameState;
 import java.io.*;
 
 public class SaveManager {

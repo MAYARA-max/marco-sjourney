@@ -3,6 +3,8 @@ package com.marcosjourney.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.marcosjourney.model.items.Item;
+
 public class Chest {
     private List<Item> items;
     private boolean isLocked;

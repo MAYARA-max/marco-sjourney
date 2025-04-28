@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 import com.marcosjourney.game.Game;
-import com.marcosjourney.model.GameState;
-import com.marcosjourney.model.Item;
-import com.marcosjourney.model.ItemType;
-import com.marcosjourney.model.PNJ;
-import com.marcosjourney.model.Sortie;
-import com.marcosjourney.model.Zone;
-import com.marcosjourney.model.ZoneEffect;
+import com.marcosjourney.model.game.GameState;
+import com.marcosjourney.model.items.Item;
+import com.marcosjourney.model.items.ItemType;
+import com.marcosjourney.model.map.Sortie;
+import com.marcosjourney.model.map.Zone;
+import com.marcosjourney.model.map.ZoneEffect;
+import com.marcosjourney.model.npc.PNJ;
 import com.marcosjourney.utils.SaveManager;
 
 import javafx.animation.Timeline;
@@ -718,7 +718,7 @@ public class GameUI extends Application implements Game.GameOutputCallback {
                 }
                 
                 // Charger l'image du Lava Demon
-                Image lavaDemonImage = new Image(getClass().getResourceAsStream("/images/lava_demon.png.png"));
+                Image lavaDemonImage = new Image(getClass().getResourceAsStream("/images/lava_demon.png"));
                 dragonImageView = new ImageView(lavaDemonImage);
                 dragonImageView.setFitWidth(100);
                 dragonImageView.setFitHeight(100);
@@ -1047,11 +1047,11 @@ public class GameUI extends Application implements Game.GameOutputCallback {
     private void startLavaDemonFight() {
         System.out.println("Debug - Début du combat contre le Lava Demon");
         
-        // Vérifier qu'on est bien dans la bonne zone
+      /*  // Vérifier qu'on est bien dans la bonne zone
         if (currentZone == null || !currentZone.getName().equals("ignis_zone3")) {
             appendToOutput("\nIl n'y a pas de Lava Demon ici !");
             return;
-        }
+        }*/
 
         appendToOutput("\n=== Combat contre le Lava Demon ===");
         appendToOutput("Le Lava Demon vous attaque !");

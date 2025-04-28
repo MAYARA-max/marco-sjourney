@@ -1,8 +1,11 @@
 package com.marcosjourney.gui;
 
-import com.marcosjourney.model.Item;
-import com.marcosjourney.model.Player;
+
 import javax.swing.*;
+
+import com.marcosjourney.model.items.Item;
+import com.marcosjourney.model.player.Player;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.List;

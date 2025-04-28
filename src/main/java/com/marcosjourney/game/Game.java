@@ -7,20 +7,20 @@ import java.util.Stack;
 
 import javax.swing.JFrame;
 
-import com.marcosjourney.model.Enemy;
-import com.marcosjourney.model.FrostiaPlanet;
-import com.marcosjourney.model.GameMap;
-import com.marcosjourney.model.GameState;
-import com.marcosjourney.model.IgnisPlanet;
-import com.marcosjourney.model.Item;
-import com.marcosjourney.model.ItemType;
-import com.marcosjourney.model.Planet;
-import com.marcosjourney.model.Player;
-import com.marcosjourney.model.Puzzle;
-import com.marcosjourney.model.Quest;
-import com.marcosjourney.model.Sortie;
-import com.marcosjourney.model.Zone;
-import com.marcosjourney.model.ZoneEffect;
+import com.marcosjourney.model.npc.Enemy;
+import com.marcosjourney.model.planets.FrostiaPlanet;
+import com.marcosjourney.model.map.GameMap;
+import com.marcosjourney.model.game.GameState;
+import com.marcosjourney.model.planets.IgnisPlanet;
+import com.marcosjourney.model.items.Item;
+import com.marcosjourney.model.items.ItemType;
+import com.marcosjourney.model.planets.Planet;
+import com.marcosjourney.model.player.Player;
+import com.marcosjourney.model.quest.Puzzle;
+import com.marcosjourney.model.quest.Quest;
+import com.marcosjourney.model.map.Sortie;
+import com.marcosjourney.model.map.Zone;
+import com.marcosjourney.model.map.ZoneEffect;
 import com.marcosjourney.ui.GameUI;
 import com.marcosjourney.utils.SaveManager;
 
